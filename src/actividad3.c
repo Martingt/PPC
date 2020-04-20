@@ -1,9 +1,3 @@
-// Crear un programa en OpenMP que informe
-// - la cantidad de hilos que se pidió al ejecutar el programa (lo solicitamos desde la línea de comandos),
-// - la cantidad de procesadores disponibles y que muestre el modelo fork/join mostrando en pantalla que está ejecutando un solo hilo,
-// - a continuación, que se ingresa a la región paralela mostrando que se abre la ejecución de n hilos
-// - y por último se cierra la región paralela y sigue con 1 hilo de ejecución para finalizar.
-// Escribir en un archivo de texto el programa, cuáles son las directivas openMP que se utiliza en cada paso con sus parámetros o cláusulas. Subirlo al Campus con su apellido-Tarea1. Utilizar las funciones que se muestran a continuación.
 #include <stdio.h>
 #include <omp.h>
 
